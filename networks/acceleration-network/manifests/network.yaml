@@ -2,7 +2,6 @@ apiVersion: streams.network.edgefarm.io/v1alpha1
 kind: Network
 metadata:
   name: acceleration-network
-  
 spec:
   compositeDeletePolicy: Foreground
   parameters:
@@ -34,8 +33,8 @@ spec:
         tolerations: []
         nodepoolSelector:
           matchExpressions:
-           - key: "ac100a"
-              operator: Exists
+          - key: "ac100a"
+            operator: Exists
             
     streams:
     
