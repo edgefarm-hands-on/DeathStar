@@ -5,6 +5,8 @@ metadata:
     kubernetes.io/hostname: sparrow
     openyurt.io/is-edge-worker: "true"
     apps.openyurt.io/desired-nodepool: sparrow
+    kubernetes.io/arch: arm64
+    kubernetes.io/os: linux
   name: sparrow
 spec:
   taints:
