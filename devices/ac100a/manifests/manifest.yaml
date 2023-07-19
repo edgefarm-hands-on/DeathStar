@@ -5,6 +5,8 @@ metadata:
     kubernetes.io/hostname: ac100a
     openyurt.io/is-edge-worker: "true"
     apps.openyurt.io/desired-nodepool: ac100a
+    kubernetes.io/arch: arm64
+    kubernetes.io/os: linux
   annotations:
     apps.openyurt.io/binding: "true"
   name: ac100a
