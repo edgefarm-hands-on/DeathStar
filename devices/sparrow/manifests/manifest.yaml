@@ -19,7 +19,6 @@ metadata:
   name: sparrow
   labels:
     sparrow: ""
-    monitor.edgefarm.io/metrics: default
 spec:
   selector:
     matchLabels:
