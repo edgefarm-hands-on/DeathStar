@@ -10,7 +10,7 @@ spec:
         image: ci4rail/dev-cuda-demo:v1
         nodepoolSelector:
           matchLabels:
-            ac100xx: ""
+            ac100a: ""
         name: cuda-edge
         
         cpu: 0.25
