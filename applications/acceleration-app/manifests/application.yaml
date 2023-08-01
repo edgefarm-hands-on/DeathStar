@@ -14,8 +14,8 @@ spec:
         name: acceleration
         
         
-        cpu: 
-        memory: 
+        cpu: "0.25"
+        memory: "256Mi"
       traits:
         - type: edgefarm-network
           properties:
