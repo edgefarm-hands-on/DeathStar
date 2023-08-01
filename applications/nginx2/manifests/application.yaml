@@ -1,7 +1,7 @@
 apiVersion: core.oam.dev/v1beta1
 kind: Application
 metadata:
-  name: nginx2
+  name: nginx3
 spec:
   components:
     - name: nginx
