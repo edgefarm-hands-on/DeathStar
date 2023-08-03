@@ -22,6 +22,7 @@ metadata:
   labels:
     gecko-right: ""
     monitor.edgefarm.io/metrics: default
+    accel-demo-edge: ""
 spec:
   selector:
     matchLabels:
