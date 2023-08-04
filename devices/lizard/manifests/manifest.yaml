@@ -22,6 +22,7 @@ metadata:
   labels:
     lizard: ""
     monitor.edgefarm.io/metrics: default
+    moducop: ""
 spec:
   selector:
     matchLabels:
