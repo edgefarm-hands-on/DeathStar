@@ -22,7 +22,7 @@ metadata:
   labels:
     lizard: ""
     monitor.edgefarm.io/metrics: default
-    accel-demo-edge-xx: ""
+    accel-demo-edge: ""
 spec:
   selector:
     matchLabels:
