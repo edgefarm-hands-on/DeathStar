@@ -22,6 +22,8 @@ metadata:
   labels:
     canary: ""
     monitor.edgefarm.io/metrics: default
+    accel-demo-edge: ""
+    accel-demo-rwf: ""
 spec:
   selector:
     matchLabels:
