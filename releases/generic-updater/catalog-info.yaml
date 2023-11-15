@@ -9,4 +9,4 @@ spec:
   type: Release
   owner: default/KlausPopp
   lifecycle: production
-  system: system:default/deathstar
+  system: system:default/DeathStar
